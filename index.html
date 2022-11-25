@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style-main.css" />
+    <link rel="stylesheet" href="./style-convert.css" />
+    <link rel="stylesheet" href="./style-currency.css" />
+    <title>Converter Website</title>
+  </head>
+  <body>
+    <header>
+      <div class="banner">
+        <nav>
+          <a href="/" class="logo">
+            <img src="./photo.png" alt="logo" />
+          </a>
+
+
+          <ul class="navbar-linkler">
+            <li class="navbar-link esas">БАНК</li>
+            <li class="navbar-link">БИЗНЕС</li>
+            <li class="navbar-link">ИНВЕСТИЦИИ</li>
+            <li class="navbar-link">СТРАХОВАНИЕ</li>
+            <li class="navbar-link">МОБАЙЛ</li>
+            <li class="navbar-link">ПУТЕШЕСТВИЯ</li>
+            <li class="navbar-link">РАЗВЛЕЧЕНИЯ</li>
+          </ul>
+        
+        </nav>
+        <button class="voiti">ВОЙТИ</button>
+      </div>
+    </header>
+    <main>
+      <div class="banner">
+        <h1>Конвертер валют онлайн</h1>
+        <div class="converter">
+          <div class="convert-from">
+            <span class="ad">У меня есть </span>
+
+            
+                               <div class="currencies">
+                                <button class="currency secilmis" id="RUB">RUB</button>
+                                <button class="currency" id="USD">USD</button>
+                                <button class="currency" id="EUR">EUR</button>
+                                <button class="currency" id="GBP">GBP</button>
+                              </div>
+
+
+            <div class="input-banner">
+              <input type="text" value="0" />
+              <span class="currency-melumat"></span>
+            </div>
+          </div>
+
+          <div class="convert-to">
+            <span class="ad">Хочу приобрести</span>
+                      
+                        <div class="currencies">
+                          <button class="currency" id="RUB">RUB</button>
+                          <button class="currency secilmis" id="USD">USD</button>
+                          <button class="currency" id="EUR">EUR</button>
+                          <button class="currency" id="GBP">GBP</button>
+                      
+                        </div>
+           
+           
+             <div class="input-banner">
+              <input type="text" value="0" />
+              <span class="currency-melumat"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div id="popup" class="popup-wrapper hide">
+        <div class="popup-mezmun">
+          <div class="popup-ad">
+            <button type="button" class="popup-close">&times;</button>
+            <h3>Network Error</h3>
+          </div>
+          <div class="popup-body">
+            <p>You are not online</p>
+          </div>
+        </div>
+      </div>
+    <script src="./javascript.js"></script>
+  </body>
+</html>
